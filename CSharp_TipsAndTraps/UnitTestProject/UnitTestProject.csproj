@@ -16,6 +16,9 @@
   <ItemGroup>
     <Folder Include="DDD\" />
     <Folder Include="MongoDB\" />
+    <Folder Include="HTTP\" />
+    <Folder Include="Parser\" />
+    <Folder Include="RegEx\" />
     <Folder Include="SOLID\" />
   </ItemGroup>
 
