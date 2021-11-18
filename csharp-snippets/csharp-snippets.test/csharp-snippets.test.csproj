@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DDD\**" />
+    <Compile Remove="HTTP\**" />
+    <Compile Remove="MongoDB\**" />
+    <Compile Remove="Parser\**" />
+    <Compile Remove="RegEx\**" />
+    <Compile Remove="SOLID\**" />
+    <EmbeddedResource Remove="DDD\**" />
+    <EmbeddedResource Remove="HTTP\**" />
+    <EmbeddedResource Remove="MongoDB\**" />
+    <EmbeddedResource Remove="Parser\**" />
+    <EmbeddedResource Remove="RegEx\**" />
+    <EmbeddedResource Remove="SOLID\**" />
+    <None Remove="DDD\**" />
+    <None Remove="HTTP\**" />
+    <None Remove="MongoDB\**" />
+    <None Remove="Parser\**" />
+    <None Remove="RegEx\**" />
+    <None Remove="SOLID\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.0.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.0.0" />
+    <PackageReference Include="coverlet.collector" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
